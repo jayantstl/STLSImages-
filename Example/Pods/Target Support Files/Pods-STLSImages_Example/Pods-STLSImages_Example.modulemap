@@ -1,0 +1,6 @@
+framework module Pods_STLSImages_Example {
+  umbrella header "Pods-STLSImages_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "STLSImages",
+  "version": "0.1.0",
+  "summary": "A short description of STLSImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jayant.bellway@gmail.com/STLSImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jayant.bellway@gmail.com": "jayant.bellway@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jayant.bellway@gmail.com/STLSImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "STLSImages/Classes/**/*"
+}

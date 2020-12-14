@@ -1,0 +1,6 @@
+framework module STLSImages {
+  umbrella header "STLSImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

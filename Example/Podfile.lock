@@ -1,0 +1,16 @@
+PODS:
+  - STLSImages (0.1.0)
+
+DEPENDENCIES:
+  - STLSImages (from `../`)
+
+EXTERNAL SOURCES:
+  STLSImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STLSImages: b6006efbf5d3b3684acd1fea6ee2ef149219afa7
+
+PODFILE CHECKSUM: 9a33b779dc317a63813c8efaae2fcca8a714e478
+
+COCOAPODS: 1.8.4
