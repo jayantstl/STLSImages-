@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'STLSImages_Example' do
+  pod 'STLSImages', :path => '../'
+
+  target 'STLSImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
