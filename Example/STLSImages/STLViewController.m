@@ -7,7 +7,8 @@
 //
 
 #import "STLViewController.h"
-
+@import STLSImages;
+//#import <S>
 @interface STLViewController ()
 
 @end
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   
+    [self.imageView makeCircle:10 borderColor:[UIColor darkGrayColor]];
 }
 
 - (void)didReceiveMemoryWarning

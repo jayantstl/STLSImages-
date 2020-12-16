@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4866B40420387F94CA6C14FE /* Pods_STLSImages_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE0299E5A18A17090E40A4A /* Pods_STLSImages_Example.framework */; };
+		5365A1F12589E1E7002AE98F /* placeholder_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5365A1F02589E1E7002AE98F /* placeholder_image.jpg */; };
+		53F1C2222587ACEA001A9577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F1C2202587ACEA001A9577 /* Main.storyboard */; };
+		53F1C2232587ACEA001A9577 /* STLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1C2212587ACEA001A9577 /* STLViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* STLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* STLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* STLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* STLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +25,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		82B6717CD7CD6624711B32E7 /* Pods_STLSImages_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B48D007BC1E97150E9C691 /* Pods_STLSImages_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,11 @@
 		039F2142C9AB7BBD822D4E1B /* STLSImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STLSImages.podspec; path = ../STLSImages.podspec; sourceTree = "<group>"; };
 		1A9C80AE93F52D4BDD799612 /* Pods-STLSImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLSImages_Example.release.xcconfig"; path = "Target Support Files/Pods-STLSImages_Example/Pods-STLSImages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35B48D007BC1E97150E9C691 /* Pods_STLSImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STLSImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5365A1F02589E1E7002AE98F /* placeholder_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder_image.jpg; sourceTree = "<group>"; };
 		538FFCABC888991002BC7513 /* Pods-STLSImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLSImages_Tests.debug.xcconfig"; path = "Target Support Files/Pods-STLSImages_Tests/Pods-STLSImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		53F1C21F2587ACEA001A9577 /* STLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLViewController.h; sourceTree = "<group>"; };
+		53F1C2202587ACEA001A9577 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		53F1C2212587ACEA001A9577 /* STLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* STLSImages_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STLSImages_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +56,6 @@
 		6003F59B195388D20070C39A /* STLSImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STLSImages-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* STLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* STLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* STLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* STLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* STLSImages_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STLSImages_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,7 +66,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F3A99D5B71293FA373EB6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		806B8BD21F26C6745BD69576 /* Pods-STLSImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLSImages_Tests.release.xcconfig"; path = "Target Support Files/Pods-STLSImages_Tests/Pods-STLSImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AFA8A3762579D516EB6366B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DCE0299E5A18A17090E40A4A /* Pods_STLSImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STLSImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4F09F69BA1982DB8B70070 /* Pods-STLSImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STLSImages_Example.debug.xcconfig"; path = "Target Support Files/Pods-STLSImages_Example/Pods-STLSImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,11 +134,12 @@
 		6003F593195388D20070C39A /* Example for STLSImages */ = {
 			isa = PBXGroup;
 			children = (
+				5365A1F02589E1E7002AE98F /* placeholder_image.jpg */,
 				6003F59C195388D20070C39A /* STLAppDelegate.h */,
 				6003F59D195388D20070C39A /* STLAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* STLViewController.h */,
-				6003F5A6195388D20070C39A /* STLViewController.m */,
+				53F1C2202587ACEA001A9577 /* Main.storyboard */,
+				53F1C21F2587ACEA001A9577 /* STLViewController.h */,
+				53F1C2212587ACEA001A9577 /* STLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -276,10 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				5365A1F12589E1E7002AE98F /* placeholder_image.jpg in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				53F1C2222587ACEA001A9577 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,8 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F1C2232587ACEA001A9577 /* STLViewController.m in Sources */,
 				6003F59E195388D20070C39A /* STLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* STLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
